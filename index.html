@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="box">
+            <div style="text-align: center;">
+                <pre><a href="">
+        /\                     
+    _  / |                     
+   (  /  |  ..  .-. .-.   .-.  
+    `/.__|_.' )/   )   )./.-'_ 
+.:' /    |   '/   /   ( (__.'  
+(__.'     `-'           `-'   
+                </a></pre>
+                <p>
+                    <span class="sep"></span>
+                    <a href="#" id="aboutBut" onclick="toggle('about');">about</a>
+                    <span class="sep"></span>
+                    <a href="#" id="musicBut" onclick="toggle('music');">music</a>
+                    <span class="sep"></span>
+                    <a href="#" id="softwareBut" onclick="toggle('software');">software I use</a>
+                    <span class="sep"></span>
+                    <a href="#" id="contactBut" onclick="toggle('contact');">contact</a>
+                    <span class="sep"></span>
+                </p>
+            </div>
+            <div class="blogpost" id="about">
+                <p>
+                    Hi, I'm Amelia, Ame for short. I'm 23. I prefer she/her pronouns.
+                    I work as a fullstack developer and in my free time I enjoy programming, videogames and music.
+                </p>
+                <p>
+                    I'm a big FOSS advocate when making software as I believe everyone should be able to adapt any
+                    software to
+                    their needs. I do use propietary software, I mean it would be weird for me to use some messaging app
+                    that any of my
+                    friend had :)
+                </p>
+                <p>
+                    I really like coding in Rust, C# and C++ or any backend language really, I <strong>really</strong>
+                    <strong style="font-size: 18px;">really</strong>
+                    <strong style="font-size: 22px;">really</strong> hate frontend and I do everything in my power to
+                    never touch anything frontend related unless 200% necessary.
+                </p>
+                <p>
+                    I also, very rarelly, do a little bit of game dev on my free time, mainly pixel art platformers or
+                    top down (like Stardew Valley) but never
+                    stuck with one, all I have are some 2D piexel art platformer engines with basic functions like
+                    movement, dialog and quest systems etc and since I'm
+                    not a very artsy person they are all very ugly and not worth your time. Maybe someday they will
+                    tho...
+                </p>
+                <p>
+                    I speak English and Spanish ^^
+                </p>
+                <p>
+                    I hope you are having a great day &lt;3
+                </p>
+                <p>
+                    Also, I like flowers :)
+                </p>
+                <img src="img/flower.jpg" alt="">
+            </div>
+            <div class="blogpost" id="music">
+                Music I enjoy in no particular order.
+                <br>
+                <br>
+                <dt>Anything mathrock</dt>
+                <dd>
+                    The uneven rhythm and harmonics tingle something in my brain :)
+                    <br>
+                    <a href="https://www.youtube.com/watch?v=TO-2DErkmus" target="_blank">Uchu Combini</a> -
+                    <a href="https://www.youtube.com/watch?v=iuUDvPZ93Qc" target="_blank">Covet</a> -
+                    <a href="https://www.youtube.com/watch?v=Rw5eefQneZk" target="_blank">a picture of her</a>
+                </dd>
+                <br>
+                <dt>Porter Robinson</dt>
+                <dd>I liked him for years but when he released <a href="https://www.youtube.com/watch?v=cAJ4FOZWTRM&list=PLfiMjLyNWxeZdzg5XuoPAggaPJu_TYf_6" target="_blank">Nurture</a> 
+                    it became one of my favourite musicians in a heartbeat, that album really speaks to me in a personal level.
+                </dd>
+                <br>
+                <dt>Yorushika</dt>
+                <dd>I can't even express how much I love n-buna's creativity and Suis voice
+                </dd>
+                <br>
+                <dt>Pretty much anything JCore</dt>
+                <dd>Fast music goes brrrrrr
+                    <br>
+                    <a href="https://www.youtube.com/watch?v=u7gRr5MAp1c" target="_blank">Camellia</a> - 
+                    <a href="https://www.youtube.com/watch?v=-GPwQ1GUVsM" target="_blank">Kobaryo</a> - 
+                    <a href="https://www.youtube.com/watch?v=yHgIYfNF8kY" target="_blank">t+pazolite</a> - 
+                    <a href="https://www.youtube.com/watch?v=HBN2OErbJlM" target="_blank">RoughSketch</a>
+                </dd>
+                <br>
+                <dt>Videogames OSTs</dt>
+                <dd>
+                    Xenoblade, Nier, Persona, FFXIV (my personal favourite), Devil May Cry, rhythm games like SDVX,
+                    IIDX, Stepmania etc. (idk if it counts???)...
+                </dd>
+                <br>
+                <br>
+                I'm probably forgeting a lot of artists/music that I enjoy, I love all kinds of music so writing them
+                all down would be tiresome...
+            </div>
+            <div class="blogpost" id="contact">
+                I'm very shy but also very open to talk to people about pretty much anything. <br> <br>
+                You can reach me at: <br> <br>
+                <span class="sep"></span>
+                <a href="">Twitter</a>
+                <span class="sep"></span>
+                <a href="">Github</a>
+                <span class="sep"></span>
+            </div>
+            <div class="blogpost" id="software">
+                <dt>Linux</dt>
+                <dd>It's my main system. I use Arch with i3.<span style="font-size: 8px;">i use Arch btw</span></dd>
+                <br>
+                <dt>Windows 10</dt>
+                <dd>Mainly used for gaming and software like Photoshop.
+                    I use a custom Windows 10 ISO with pretty much everything disabled, no Cortana, no Windows Store, no
+                    telemetry... <br>
+                    Waiting the day I can play games on Linux without any issue. I would like to do a passthrough setup
+                    in the near future
+                    but for now a dualboot will do just fine.</dd>
+                <br>
+                <dt>Visual Studio and Visual Studio Code</dt>
+                <dd>Thats what I use at work, don't really enjoy neither of them.</dd>
+                <br>
+                <dt>Jetbrains Rider</dt>
+                <dd>My go to when I write C#, the IDE is just better in every way to Visual Studio in my opinion
+                    and is just an enjoyable tool to work with.
+                </dd>
+                <br>
+                <dt>Neovim</dt>
+                <dd>
+                    For everything else where I don't need an IDE I use Neovim for about everything.
+                    It has a very steep learning curve but I recommend everyone to try it at least once in their life.
+                </dd>
+                <br>
+                <dt>Git Extensions</dt>
+                <dd>
+                    I usually use the terminal git commands but when I need a GUI this is my go to.
+                </dd>
+            </div>
+        </div>
+    </main>
+    <footer>
+        Feel free use any code or stylesheet file on my website. Please don't ask
+        permission to use those resources. Remember that "intellectual property"
+        is a spook. Sharing, helping and copying are acts of love. Please copy
+        and share.
+    </footer>
+</body>
+<script language="JavaScript">
+    // please ignore this monstruosity im very ashamed of myself ;w;
+    function toggle(id) {
+        switch (id) {
+            case 'about':
+                document.getElementById('about').style.display = 'block';
+                document.getElementById('contact').style.display = 'none';
+                document.getElementById('software').style.display = 'none';
+                document.getElementById('music').style.display = 'none';
+                document.getElementById("aboutBut").classList.add('pink');
+                document.getElementById("contactBut").classList.remove('pink');
+                document.getElementById("softwareBut").classList.remove('pink');
+                document.getElementById("musicBut").classList.remove('pink');
+                break;
+            case 'music':
+                document.getElementById('about').style.display = 'none';
+                document.getElementById('contact').style.display = 'none';
+                document.getElementById('software').style.display = 'none';
+                document.getElementById('music').style.display = 'block';
+                document.getElementById("aboutBut").classList.remove('pink');
+                document.getElementById("contactBut").classList.remove('pink');
+                document.getElementById("softwareBut").classList.remove('pink');
+                document.getElementById("musicBut").classList.add('pink');
+                break;
+            case 'software':
+                document.getElementById('about').style.display = 'none';
+                document.getElementById('contact').style.display = 'none';
+                document.getElementById('software').style.display = 'block';
+                document.getElementById('music').style.display = 'none';
+                document.getElementById("aboutBut").classList.remove('pink');
+                document.getElementById("contactBut").classList.remove('pink');
+                document.getElementById("softwareBut").classList.add('pink');
+                document.getElementById("musicBut").classList.remove('pink');
+                break;
+            case 'contact':
+                document.getElementById('about').style.display = 'none';
+                document.getElementById('contact').style.display = 'block';
+                document.getElementById('software').style.display = 'none';
+                document.getElementById('music').style.display = 'none';
+                document.getElementById("aboutBut").classList.remove('pink');
+                document.getElementById("contactBut").classList.add('pink');
+                document.getElementById("softwareBut").classList.remove('pink');
+                document.getElementById("musicBut").classList.remove('pink');
+                break;
+        }
+    }
+</script>
+
+</html>
